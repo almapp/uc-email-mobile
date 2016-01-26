@@ -1,39 +1,33 @@
 {
-  "nativescript": {
-    "id": "org.nativescript.helloworldng",
-    "tns-android": {
-      "version": "1.5.1"
-    },
-    "tns-ios": {
-      "version": "1.5.2"
-    }
-  },
-  "name": "nativescript-hello-world-ng",
-  "main": "app.js",
+  "name": "uc-email-mobile",
   "version": "1.0.0",
-  "author": "Telerik <support@telerik.com>",
+  "author": {
+    "name": "Patricio López Juri",
+    "email": "patricio@lopezjuri.com",
+    "url": "https://lopezjuri.com"
+  },
   "description": "Nativescript Angular Hello World template",
   "scripts": {
-    "ios-emulator": "tns run ios --emulator"
+    "ios-emulator": "grunt run-ios"
   },
-  "license": "BSD",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/almapp/uc-email-mobile/issues"
+  },
   "keywords": [
-    "telerik",
-    "mobile",
-    "angular",
-    "nativescript",
+    "uc",
+    "puc",
+    "email",
     "{N}",
-    "tns",
-    "appbuilder",
-    "template"
+    "typescript"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/NativeScript/template-hello-world-ng"
+    "url": "https://github.com/almapp/uc-email-mobile.git"
   },
   "homepage": "http://nativescript.org",
   "dependencies": {
-    "nativescript-angular": "0.0.20",
+    "nativescript-angular": "^0.0.20",
     "nativescript-telerik-ui": "^0.2.3",
     "angular2": "2.0.0-beta.0",
     "parse5": "1.4.2",
@@ -54,5 +48,14 @@
     "nativescript-dev-typescript": "^0.2.2",
     "shelljs": "^0.5.3",
     "typescript": "^1.7.5"
+  },
+  "nativescript": {
+    "id": "org.nativescript.helloworldng",
+    "tns-android": {
+      "version": "1.5.1"
+    },
+    "tns-ios": {
+      "version": "1.5.2"
+    }
   }
 }
