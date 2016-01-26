@@ -18,12 +18,12 @@ module.exports = function(grunt) {
 
     var androidAvd = grunt.option('avd') || "nexus"
     var genyDevice = grunt.option('geny') || "nexus7"
-    var iOSDevice = grunt.option('device') || "nexus"
+    var iOSDevice = grunt.option('device') || "iPhone 5"
 
     grunt.initConfig({
         ts: {
             build: {
-                tsconfig: 'app/tsconfig.json',
+                tsconfig: 'tsconfig.json',
                 options: {
                     fast: "never",
                     compiler: "node_modules/typescript/bin/tsc",
